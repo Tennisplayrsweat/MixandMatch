@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Cosmic;
+    src: url(The\ Amazing\ Spider-Man.ttf);
+}
+body {
+  background-image: url('Cosmic.jpg');
+}
+
+p{
+font-family: Cosmic;
+color: #ffffff;
+font-size: x-large;
+}
+h{
+color: #2fd8ee ;
+font-family: Cosmic;
+font-size: xx-large;
+}
+ 
