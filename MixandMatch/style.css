@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Cosmic;
+  src: url(The\ Amazing\ Spider-Man.ttf);
+}
+
+body {
+  background-image: url('Cosmic.jpg');
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  color: #2fd8ee;
+  font-family: Cosmic;
+  font-size: xx-large;
+}
+
+p {
+  font-family: Cosmic;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+.caption {
+  color: #ffcc00;
+  font-size: large;
+  text-align: center;
+  margin-top: 10px;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin: 20px auto;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  border: 2px solid #ffcc00;
+}
